@@ -6,7 +6,7 @@ class HelloWorld_Model extends CI_Model {
     function Helloworld_model()  
     {  
         // Call the Model constructor  
-        parent::Model();  
+        parent::CI_Model();  
     }  
       
     function getData()  
